@@ -6,17 +6,17 @@ export default Controller.extend({
 
   actions: {
     showModal() {
-      this.modals.open('modal1');
+      this.modals.open('example-modal');
     },
 
     showModalFromTop() {
-      this.modals.open('modal1', null, {
+      this.modals.open('example-modal', null, {
         className: 'from-top',
       });
     },
 
     showModalFromBottom() {
-      this.modals.open('modal1', null, {
+      this.modals.open('example-modal', null, {
         className: 'from-bottom',
       });
     },
